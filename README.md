@@ -1,8 +1,6 @@
 # vue-cli3-docker-demo
 cli3,docker
 
-# cli3
-
 ## Project setup
 ```
 npm install
