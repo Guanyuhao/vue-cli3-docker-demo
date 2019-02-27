@@ -3,7 +3,7 @@ const CompressionPlugin = require('compression-webpack-plugin')
 module.exports = {
     // 选项...
     publicPath: process.env.NODE_ENV === 'production'
-    ? '/production-sub-path/'
+    ? '/'
     : '/',
     // devServer: {
     //     proxy: {
