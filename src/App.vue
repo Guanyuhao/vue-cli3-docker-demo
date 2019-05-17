@@ -10,16 +10,20 @@
       <el-button>el-button</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <dragVerify @success='dragSuccessHandle' v-model="loginForm.dragVerify"></dragVerify>
+
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import dragVerify from './components/dragVerify.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    dragVerify
   }
 }
 </script>
